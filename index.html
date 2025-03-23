@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate 3D Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="splashScreen">
+        <h1>Gaurav Creation</h1>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="hud">
+        <div id="speedometer">Speed: 0 km/h</div>
+        <div id="distance">Distance: 0 m</div>
+        <div id="score">Score: 0</div>
+    </div>
+    <div id="mobileControls">
+        <button id="leftBtn">⬅</button>
+        <button id="rightBtn">➡</button>
+        <button id="brakeBtn">🛑</button>
+        <button id="nitroBtn">🔥</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
